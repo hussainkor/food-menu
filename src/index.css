@@ -61,6 +61,9 @@ img {
 .menu-box p {
   color: #efca78;
 }
+.menu-box img {
+  height: 200px;
+}
 .category-btn {
   margin: auto;
   max-width: 320px;
