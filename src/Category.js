@@ -2,8 +2,7 @@ import React from 'react';
 import { specialMenu } from './data';
 
 export default function Category({ handleCategory, allCategory, categ, isActive }) {
-    const uniqueCateg = new Set(specialMenu.map((menu) => menu.category));
-    const categArray = [...uniqueCateg];
+    const categArray = [...new Set(specialMenu.map((menu) => menu.category))];
     return (
         <ul className='category-btn'>
             <li className={`${isActive === false ? "activeCateg" : ''}`} onClick={() => allCategory()}>All</li>
