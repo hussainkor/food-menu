@@ -18,12 +18,9 @@ function App() {
     setIsActive(false);
   }
 
-  // const handleActiveClass = (menu) => {
-  //   setCateg(menu)
-  // }
-
   return (
     <div className='main-page'>
+      <a href='https://www.mrhussain.in/portfolio/' className='back-btn'>Back to Portfolio</a>
       <div className='header'></div>
       <h1>Our Menu</h1>
       <Category
