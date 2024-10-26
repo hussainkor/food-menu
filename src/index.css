@@ -1,13 +1,83 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #e8e1d6;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  width: 100%;
+}
+.main-page {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  height: 250px;
+  background: #000;
+  background: url("https://product-assets.faasos.io/eatsure/production/order-veg-biryani-online.jpeg")
+    center bottom no-repeat;
+  background-size: cover;
+}
+.main-page h1 {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  padding: 12px 30px;
+  color: #9e2437;
+  font-size: 44px;
+  background: #efca78;
+  text-transform: uppercase;
+  margin-top: -30px;
+  border-radius: 10px;
+}
+.menu-list {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  background: #9e2437;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.menu-box {
+  flex-basis: 280px;
+  background: #bf3c44;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #bf3c44;
+}
+.menu-box h2 {
+  margin: 12px 0;
+}
+.menu-box p {
+  color: #efca78;
+}
+.category-btn {
+  margin: auto;
+  max-width: 320px;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.category-btn li {
+  list-style: none;
+  padding: 5px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 6px 6px 0 0;
+}
+.activeCateg {
+  color: #fff !important;
+  background: #9e2437 !important;
 }
